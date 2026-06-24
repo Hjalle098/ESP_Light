@@ -1,0 +1,6 @@
+.pio
+.DS_Store
+sdkconfig.*
+CMakeLists.txt
+src/CMakeLists.txt
+.vscode/
