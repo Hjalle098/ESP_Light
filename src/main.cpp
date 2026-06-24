@@ -1,25 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-//  WS2812B lamp for ESP32-C6, controllable from Apple HomeKit.
-//
-//  Uses HomeSpan (native HAP) so the lamp appears directly in the
-//  Apple Home app — no bridge, hub, or cloud required.
-//
-//  In Home you get:
-//    • "Lamp"    — dimmable color light (on/off, brightness, color)
-//    • "Fire"    — switch: run the flickering-flame animation
-//    • "Breathe" — switch: slow breathing of the chosen color
-//  With both mode switches off, the lamp shows a solid color.
-//
-//  First-time setup (over USB serial @ 115200):
-//    1. Type 'W' to scan/join your 2.4 GHz WiFi network.
-//    2. In the Home app: Add Accessory → enter code 466-37-726
-//       (or scan the QR shown in the serial monitor).
-//
-//  Wiring:
-//    GPIO17  --[470 ohm]-->  DIN (LED 1),  then daisy-chained out.
-//    5V -> VDD on all LEDs,  GND common (tie ESP32 GND to supply GND).
-// ─────────────────────────────────────────────────────────────
-
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 #include "HomeSpan.h"
