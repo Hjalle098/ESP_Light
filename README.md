@@ -31,8 +31,9 @@ GND -> common (tie ESP32 GND to the supply GND)
 
 Built with PlatformIO:
 
-pio run -t upload      # build and flash
-pio device monitor     # serial monitor @ 115200
+pio run -t upload     &emsp; # build and flash
+
+pio device monitor    &emsp; # serial monitor @ 115200
 
 
 ## First-time setup
