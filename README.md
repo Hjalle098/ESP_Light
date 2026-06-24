@@ -2,6 +2,8 @@
 
 A WS2812B LED lamp for the powered by a ESP32-C6, controllable directly from Apple HomeKit.
 
+<img src="IMG_2623.jpeg" width="250"><img src="IMG_2624.jpeg" width="250">
+
 
 ## Features
 
